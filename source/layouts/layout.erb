@@ -11,6 +11,11 @@
     <%= javascript_include_tag "javascripts/site" %>
   </head>
   <body>
+  <header>
+    <%= link_to 'Home', '/' %> |
+    <%= link_to 'Local WT V2', '/local_wt_v2.html' %> |
+    <%= link_to 'Development2 WT V2', '/development2_wt_v2.html' %>
+  </header>
     <%= yield %>
   </body>
 </html>
